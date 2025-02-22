@@ -112,29 +112,3 @@ button:hover {
     font-size: 14px;
     margin-top: 10px;
 }
-/* Welcome screen: full page and visible by default */
-#welcome-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    z-index: 9999; /* Makes sure it's on top of everything */
-    transition: opacity 1s ease; /* For fade-out effect */
-}
-#welcome-screen h1 {
-    font-size: 50px;
-    color: black;
-}
-
-/* Main content hidden initially */
-#main-content {
-    display: none; /* Hidden by default */
-    text-align: center;
-    padding-top: 50px;
-}
