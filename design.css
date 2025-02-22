@@ -112,3 +112,62 @@ button:hover {
     font-size: 14px;
     margin-top: 10px;
 }
+
+.navbar{
+    background-color: bisque;
+    color:white;
+    padding: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logout-btn{
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+    color: turquoise;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+}
+
+.service button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.service button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:paleturquoise;
+    color: white;
+}
