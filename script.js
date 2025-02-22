@@ -72,4 +72,16 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Order placed successfully!");
         });
     }
+
+    setTimeout(function() {
+        const welcomeScreen = document.getElementById('welcome-screen');
+        const mainContent = document.getElementById('main-content');
+
+        // Fade out the welcome screen
+        welcomeScreen.style.opacity = '0';
+        setTimeout(() => {
+            welcomeScreen.style.display = 'none'; // Hide after fade
+            mainContent.style.display = 'block';  // Show main content
+        }, 1000); // Match the fade duration
+    }, 3000); 
 });
